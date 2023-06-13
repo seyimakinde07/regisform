@@ -1,0 +1,181 @@
+:root {
+  --headerColor: #212327;
+  --textColor: #535559;
+  --primary: #2E5BFB;
+  --grayf9: #F9F9F9;
+  --grayafb: #AFB1B6;
+  --red: #D01D22;
+}
+
+.hod-header-color {
+  color: var(--headerColor);
+}
+
+.hod-text-color {
+  color: var(--textColor);
+}
+
+.hod-input {
+  height: 50px;
+  padding: 16px;
+  background: var(--grayf9);
+  border: 1px solid var(--grayafb);
+  border-radius: 8px;
+}
+
+.hod-input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--grayafb);
+}
+
+.auth-container {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  background-color: #fff;
+  overflow-y: auto;
+  position: relative;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header-section {
+  margin-bottom: 45px;
+}
+
+.header-section .welcome-header {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
+  color: #212327;
+  margin-bottom: 10px;
+}
+
+.form {
+  max-width: 380px;
+}
+
+.form .form-label, 
+.form .magic-link-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cborder {
+  border: 1px solid var(--red);
+}
+
+.img-section {
+  background-image: url("../../assets/hod_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.confirm-email {
+  background-image: url("../../assets/hod_2.png");
+}
+
+.unread {
+  height: 24px;
+  width: 24px;
+  top: 5px;
+  right: 0px;
+}
+
+.unread .circle {
+  background-color: var(--red);
+  height: 14px;
+  width: 14px;
+}
+
+.email-sent-wrapper {
+  max-width: 400px;
+}
+
+.link-primary {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.verification-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 90%;
+  max-width: 470px;
+  gap: 10px;
+  padding: 48px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.verification-card .header-section {
+  margin-bottom: 32px;
+}
+
+.verification-card .header-section p {
+  max-width: 220px;
+}
+
+/* @media screen and (min-width: 768px) {
+  .email-verification {
+    background: #F9F9F9;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .auth-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    
+    background: #fff;
+    /* background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px); */
+    border-radius: 20px;
+  }
+
+  .header-section {
+    margin-bottom: 35px;
+  }
+
+  .header-logo img {
+    width: 90px !important;
+  }
+
+  .header-section .welcome-header {
+    font-size: 32px;
+  }
+
+  .verification-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+}
+

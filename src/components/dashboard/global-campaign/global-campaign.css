@@ -1,0 +1,1064 @@
+.campaign_list, .dashboard-overview {
+  padding-top: 124px;
+}
+
+.campaign_list .campaign_table {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.dashboard-overview .overview-content {
+  gap: 35px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.campaign_list .campaign_table .table-responsive {
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
+}
+
+.campaign_list .campaign_table .table {
+  background: #fff;
+  margin-bottom: 0;
+}
+
+.campaign_list .campaign_table .table thead {
+  height: 56px;
+  background: #f7f7f8;
+}
+
+.campaign_list .campaign_table .table thead th {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px 10px 0 10px;
+  line-height: 24px;
+  color: #535559;
+  white-space: nowrap;
+}
+
+.campaign_list .campaign_table .table thead th:first-child,
+.campaign_list .campaign_table .table thead th:last-child {
+  padding-left: 14px;
+}
+
+.campaign_list .campaign_table .table thead th:last-child {
+  padding-right: 14px;
+}
+
+.campaign_list .campaign_table .table tbody tr {
+  height: 56px;
+}
+
+.campaign_list .campaign_table .table tbody tr:last-child {
+  border-bottom-color: transparent;
+}
+
+.campaign_list .campaign_table .table tbody tr:hover {
+  background: #f7f7f8;
+}
+
+.campaign_list .campaign_table .table tbody tr td {
+  font-size: 14px;
+  padding: 12px 10px 12px 10px;
+  line-height: 16px;
+  color: #535559;
+  white-space: nowrap;
+}
+
+.campaign_list .campaign_table .table tbody tr td:first-child,
+.campaign_list .campaign_table .table tbody tr td:nth-child(3) {
+  color: #273472;
+}
+
+.campaign_list .campaign_table .table tbody tr td:first-child,
+.campaign_list .campaign_table .table tbody tr td:last-child {
+  padding-left: 14px;
+}
+
+.campaign_list .campaign_table .table tbody tr td:last-child {
+  padding-right: 14px;
+}
+
+.campaign_list .campaign_table .table tbody tr td:nth-child(6) {
+  text-align: center;
+}
+
+.campaign_list .campaign_table .table tbody tr td tbody tr {
+  height: 30px;
+}
+
+.campaign_list .campaign_table .table tbody tr td tbody tr td {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  background: #E4E5E7;
+  color: #212327;
+  border-radius: 64px;
+}
+
+.campaign_list .campaign_table .table tbody tr td tbody tr td.sent {
+  background: rgba(217, 252, 217, 0.4);
+  color: #196B2B;
+}
+
+.campaign_list .campaign_table .table tbody tr td tbody tr td.scheduled {
+  background: rgba(248, 156, 17, 0.1);
+  color: #F89C11;
+}
+
+.campaign_list .campaign_table .table tbody tr td .icon {
+  cursor: pointer;
+}
+
+
+/* campaign list table pagination */
+.pagination-container {
+  margin-top: 45px;
+}
+
+.pagination-container .pagination {
+  gap: 8px;
+}
+
+.pagination-container .page-link {
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 16px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  background: #fff;
+  color: #8D8F94;
+  border: 1px solid #DFE3E8;
+  border-radius: 4px;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.page-link:hover {
+  background-color: #f0f0f0;
+  color: #273472;
+  border-color: #d0d0d0;
+}
+
+.pagination-container .page-item.active .page-link {
+  background: #fff;
+  color: #273472;
+  border: 1px solid #273472;
+  border-radius: 4px;
+}
+
+.pagination-container .page-item.disabled .page-link {
+  opacity: 0.75;
+}
+
+/* campaign list table pagination */
+
+
+.campaign_list .create_campaign_btn {
+  padding-top: 45px;
+}
+
+.campaign_list .create_campaign_btn h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 41px;
+  color: #535559;
+  margin-bottom: 8px;
+}
+
+.campaign_list .create_campaign_btn p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8D8F94;
+}
+
+.search-campaign {
+  position: relative;
+}
+
+.search-campaign .search-icon {
+  position: absolute;
+  top: 16px;
+  left: 12px;
+}
+
+.search-campaign .hod-input {
+  padding-left: 36px;
+}
+
+.filter-campaign .dropdown-toggle {
+  gap: 6px;
+  height: 50px;
+  /* width: 98px; */
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 14px;
+  background: #fff;
+  color: #535559;
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
+}
+
+.filter-campaign .dropdown-toggle::after {
+  display: none;
+}
+
+/* campaign header */
+.campaign-header {
+  gap: 0 25px;
+  align-items: center;
+  justify-content: space-between;
+  height: 160px;
+  width: calc(100% - 280px);
+  position: fixed;
+  top: 0;
+  left: 280px; /* width of sidebar */
+  padding: 40px 15px 40px 40px;
+  background: #133367;
+  z-index: 2;
+}
+
+.campaign_container .campaign-header {
+  height: 124px;
+  padding: 40px;
+  background: #fff;
+  border-bottom: 1px solid #D0D0D0;
+  /* border-radius: 0px 0px 8px 8px; */
+}
+
+.campaign-header .header-title {
+  gap: 8px;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #fff;
+}
+
+.campaign_container .campaign-header .header-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #212327;
+}
+
+.campaign_container .campaign-header .user-name {
+  font-size: 16px;
+  line-height: 24px;
+  color: #535559;
+  margin-top: 8px;
+}
+
+.campaign-header .header-title .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.campaign-header .header-title .new-campaign {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.campaign-header .step-container {
+  gap: 20px;
+}
+
+.campaign-header .step {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.002em;
+  color: #949191;
+  position: relative;
+}
+
+.campaign-header .step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 68px;
+  top: 17px;
+  width: 90px;
+  height: 1px;
+  background: #949191;
+}
+
+.campaign-header .step .step-number {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 8px;
+  border: 1px solid #949191;
+  border-radius: 100%;
+  letter-spacing: 0.2px;
+}
+
+.campaign-header .step .step-title {
+  width: 103px;
+}
+
+.campaign-header .step.active-step {
+  color: #fff;
+}
+
+.campaign-header .step.active-step::after {
+  background: #fff;
+}
+
+.campaign-header .step.active-step .step-number {
+  border-color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .campaign_container .campaign-header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .campaign-header .header-title .new-campaign {
+    font-size: 28px;
+  }
+
+  .campaign-header .header-title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .campaign-header {
+    width: 100%;
+    top: 60px; /* height of top bar mobile menu */
+    left: 0;
+  }
+
+  .campaign_list .campaign_table {
+    padding-top: 100px;
+  }
+
+  .dashboard-overview .overview-content {
+    padding-top: 85px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .campaign-header {
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+
+  .campaign_container .campaign-header {
+    padding-right: 20px;
+  }
+
+  .campaign-header .header-title .new-campaign {
+    font-size: 26px;
+  }
+
+  .campaign-header .header-title {
+    gap: 6px;
+    font-size: 16px;
+  }
+
+  .campaign-header .step .step-title {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .campaign-header {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 8px 5px 14px;
+  }
+
+  .campaign_container .campaign-header {
+    padding: 12px;
+  }
+
+  .campaign-header .header-title .new-campaign {
+    font-size: 22px;
+  }
+
+  .campaign-header .header-title {
+    font-size: 14px;
+  }
+
+  .campaign-header .step-container {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .campaign-header {
+    padding-left: 15px;
+  }
+
+  .campaign_container .campaign-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .campaign-header .step-container {
+    gap: 10px;
+  }
+
+  .campaign-header .step .step-title {
+    width: 100px;
+  }
+
+  .campaign-header .step:not(:last-child)::after {
+    width: 75px;
+  }
+}
+
+
+.next-button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.next-button-wrapper .button {
+  min-width: 85px;
+}
+
+.next-button-wrapper .button button {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+
+/* OKEIMUTE GOLD SPACE */
+/* Please write your css here */
+
+.create-campaign-view, 
+.review-campaign-view,
+.campaign-form-view {
+  padding-top: calc(160px + 56px); /* height of campaign header + padding-top */
+}
+
+.create-campaign-view, 
+.review-campaign-view {
+    width: 100%;
+    max-width: 720px;
+    height: auto;
+}
+
+section .title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #535559;
+}
+
+.create-campaign-view .campaign-mode-wrapper, 
+.create-campaign-view .campaign-mode-info {
+    display: flex;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.create-campaign-view .campaign-mode-wrapper {
+    gap: 24px;
+    overflow-x: auto;
+    margin-top: 56px;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 224px;
+    width: 100%;
+    min-height: 184px;
+    padding: 48px 30px;
+    background: #fff;
+    border: 1px solid #bcbcbd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode:hover, 
+.create-campaign-view .campaign-mode-wrapper .campaign-mode.selected-option {
+    border-color: #273472;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode .active-dot {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #bcbcbd;
+    border-radius: 100%;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode.selected-option .active-dot {
+    border-color: #31343B;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode.selected-option .active-dot::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    margin: auto;
+    background: #31343B;
+    border-radius: 100%;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode .icon-wrapper {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.create-campaign-view .campaign-mode-wrapper .campaign-mode .mode-type {
+    font-size: 16px;
+    line-height: 24px;
+    color: #31343B;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.create-campaign-view .campaign-mode-info {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #bcbcbd;
+    border-radius: 8px;
+}
+
+/* use existing audience */
+.create-campaign-view .campaign-mode-info form {
+    width: 100%;
+    display: flex;
+    /* -ms-flex-wrap: wrap;
+    flex-wrap: wrap; */
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.create-campaign-view .campaign-mode-info .form-group {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.create-campaign-view .campaign-mode-info label {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #31343B;
+}
+
+.create-campaign-view .campaign-mode-info .form-group label {
+    margin-bottom: 8px;
+}
+
+.create-campaign-view .campaign-mode-info select {
+    width: 100%;
+    max-width: 307px;
+    height: 40px;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 16px;
+    background: #fff;
+    color: #535559;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+}
+
+.create-campaign-view .campaign-mode-info .enable-smart-email {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.create-campaign-view .campaign-mode-info .form-check-inline {
+    margin-top: -5px;
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+.create-campaign-view .campaign-mode-info .form-check-input {
+    width: 34px;
+    height: 20px;
+}
+
+.create-campaign-view .campaign-mode-info .form-check-input:checked {
+    background-color: #31343B;
+    border-color: #31343B;
+}
+
+.create-campaign-view .campaign-mode-info .enable-smart-email label, 
+.create-campaign-view .campaign-mode-info .enable-smart-email input {
+    cursor: pointer;
+}
+
+.create-campaign-view .campaign-mode-info p {
+    font-size: 14px;
+    line-height: 14px;
+    color: #535559;
+    margin-bottom: 0;
+}
+
+/* upload a file */
+.create-campaign-view .campaign-mode-info .form-group .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #31343B;
+    margin-bottom: 10px;
+}
+
+.create-campaign-view .campaign-mode-info .drop-file-upload .input {
+    background: transparent;
+    border: none;
+    display: none;
+    height: 0;
+    min-height: 0;
+    padding: 0;
+    width: 0;
+}
+
+.create-campaign-view .campaign-mode-info .drop-file-upload .form-label {
+    width: 100%;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: rgba(223, 242, 244, 0.065);
+    border: 1px dashed #e0e0e0;
+    border-radius: 8px;
+    padding: 16px 12px 12px;
+    cursor: pointer;
+}
+
+.create-campaign-view .campaign-mode-info .drop-file-upload .input-placeholder {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #273472;
+    border-radius: 16px;
+    color: #3a3a3a;
+}
+
+.create-campaign-view .campaign-mode-info .drop-file-upload .file-upload-description {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #8d8f94;
+}
+
+.create-campaign-view .campaign-mode-info .drop-file-upload .file-upload-description .file-name {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-all;
+}
+
+.create-campaign-view .campaign-mode-info .drop-file-upload .file-upload-description .supported-formats b {
+    font-weight: 500;
+    color: #273472;
+}
+
+/* copy and paste */
+.create-campaign-view .campaign-mode-info p span {
+    color: #8d8f94;
+}
+
+@media screen and (max-width: 540px) {
+  .create-campaign-view .campaign-mode-info form {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .create-campaign-view .campaign-mode-info select {
+    max-width: 100%;
+  }
+
+  .create-campaign-view .campaign-mode-info {
+    padding: 20px 16px !important;
+  }
+}
+
+
+/* campaign form view */
+.form-container {
+  gap: 32px;
+  margin-bottom: 40px;
+}
+
+/* content form */
+.email-content-form {
+  max-width: 100%;
+}
+
+.email-content-form .title {
+  margin-bottom: 34px;
+}
+
+.email-content-form .form-group:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.email-content-form .label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #535559;
+  margin-bottom: 8px;
+}
+
+.email-content-form .input {
+  width: 100%;
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid #AFB1B6;
+  border-radius: 8px;
+}
+
+.email-content-form .input:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.email-content-form .check-input {
+  margin-top: 10px;
+}
+
+.email-content-form .check-input input {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #535559;
+  border-radius: 4px;
+  margin-top: -2px;
+  margin-right: 8px;
+}
+
+
+/* content editor */
+.email-content-editor .email-content-editor-cta {
+  gap: 25px;
+  overflow-x: auto;
+}
+
+.email-content-editor .editor-toggler {
+  background: #f7f7f8;
+  border: 1px solid #273472;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.email-content-editor .editor-toggler .button {
+  height: 40px;
+  padding: 8px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8d8f94;
+  border-radius: 8px;
+}
+
+.email-content-editor .editor-toggler .button.active {
+  background: #fff;
+  color: #31343B;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.email-content-editor .preview-cta .button {
+  /* height: 56px; */
+  padding: 16px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  background: rgba(241, 237, 237, 0.4);
+  color: #D01D22;
+  border: 1px solid #E09194;
+  border-radius: 8px;
+}
+
+/* editor */
+.email-content-editor .content-editor {
+  margin-top: 35px;
+}
+
+.email-content-editor .content-editor .custom-quill {
+  border-radius: 8px;
+}
+
+.email-content-editor .content-editor .custom-quill .ql-toolbar.ql-snow + .ql-container.ql-snow {
+  max-height: calc(514px - 75px);
+}
+
+.email-content-editor .content-editor .custom-quill .ql-toolbar.ql-snow, 
+.email-content-editor .content-editor .custom-quill .ql-container.ql-snow {
+  background-color: #fff;
+  border-color: #AFB1B6;
+}
+
+.email-content-editor .content-editor .custom-quill .ql-toolbar.ql-snow {
+  border-radius: 8px 8px 0 0;
+}
+
+.email-content-editor .content-editor .custom-quill .ql-container.ql-snow {
+  border-radius: 0 0 8px 8px;
+}
+
+@media screen and (min-width: 540px) {
+  .email-content-editor .content-editor .custom-quill .ql-toolbar.ql-snow + .ql-container.ql-snow {
+    max-height: calc(514px - 50px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .email-content-form {
+    max-width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .email-content-form {
+    max-width: 43%;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .email-content-form {
+    max-width: 400px;
+  }
+
+  .email-content-editor .content-editor .custom-quill .ql-toolbar.ql-snow + .ql-container.ql-snow {
+    max-height: calc(514px - 28px);
+  }
+}
+
+
+/* OKEIMUTE GOLD SPACE */
+
+
+
+
+
+
+
+
+/* DAMILOLA PHILIP SPACE */
+/* Please write your css here */
+.review-tabs {
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.review-tabs .tab {
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 32px;
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
+}
+
+.review-tabs .tab .info {
+  align-items: center;
+}
+
+.review-tabs .icon {
+  width: 48px;
+  min-width: 48px;
+  height: 48px;
+  min-height: 48px;
+  border-radius: 100%;
+  padding: 12px;
+}
+
+.review-tabs .icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.recipient-tab .icon {
+  background-color: rgba(192, 192, 216, 0.2);
+  color: #273472;
+  border: 1px solid #273372;
+}
+
+.content-tab .icon {
+  background-color: rgba(235, 1, 8, 0.05);
+  color: #7A0C0F;
+  border: 1px solid #7A0C0F;
+}
+
+.address-tab .icon {
+  background-color: rgba(248, 156, 17, 0.05);
+  color: #F89C11;
+  border: 1px solid #F89C11;
+}
+
+.review-tabs .tab .tab-name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #535559;
+  margin-bottom: 8px;
+}
+
+.review-tabs .tab small {
+  font-size: 16px;
+  line-height: 18px;
+  color: #3A3A3A;
+}
+
+.review-tabs .edit-button .button {
+  font-weight: 400;
+  font-size: 16px;
+  background: rgba(241, 237, 237, 0.4);
+  color: #D01D22;
+  border: 1px solid #E09194;
+  border-radius: 8px;
+  padding: 16px 24px;
+  line-height: 18px;
+}
+
+.choice-tab {
+  align-self: flex-start;
+  margin-top: 40px;
+  margin-bottom: 56px;
+}
+
+.form-check + .form-check {
+  margin-top: 24px;
+}
+
+.form-check-label {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3A3A3A;
+}
+
+.date-time-section {
+  display: flex;
+  gap: 15px 25px;
+  margin-top: 24px;
+  margin-left: 22px;
+}
+
+.date-time label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #31343B;
+  margin-bottom: 8px;
+}
+
+.date-time input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #535559;
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #D0D0D0;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 640px) {
+  .review-tabs .tab {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .review-tabs .edit-button .button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .review-tabs .tab .info {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .review-tabs .tab {
+    padding: 24px;
+  }
+
+  .review-tabs .edit-button .button {
+    font-size: 14px;
+    padding: 14px 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .date-time-section {
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+/* DAMILOLA PHILIP SPACE */
+
+
+
+
+
+
+
+
+/* EMMANUEL EMECHETE SPACE */
+
+
+
+
+
+
+/* EMMANUEL EMECHETE SPACE */
+
+
+
+/* FAVOUR SPACE */
+
+
+/* FAVOUR SPACE */

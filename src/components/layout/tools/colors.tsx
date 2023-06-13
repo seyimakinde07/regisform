@@ -1,0 +1,1 @@
+export const app_purple = 'rgb(48 50 109)'
